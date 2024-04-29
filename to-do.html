@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="script.js">
+</head>
+<body>
+    <div class="to-docontainer">
+      <nav class="navbarto-do">
+        <ul>
+            <li><a href="profile.html">Mentor's profile</a></li>
+            <li><a href="to-do.html">To-Do List</a></li>
+            <li><a href="goal_setting.html">Goal Setting</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction ()"><i class="fa fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 id="to-doh1">To- Do List</h1>
+    </div>
+    <div>
+        <label for="date" id="date">Date:</label>
+        <input type="date" name="date" placeholder="Enter Date" id="date_input">
+    </div>
+    <div>
+        <!-- <p id="To-do_firstparagraph">A <a href="summary.html">summary</a> of Born A Crime By Trevor Noah </p> -->
+        <!-- <hr> -->
+    </div>
+    <div class="tasks">
+        <div>
+            <p>To-Do</p>
+              <br>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" > Set mentor's meeting on saturday 1pm
+             </label>
+              <br>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" > Schedule an interview with google CEO
+             </label>
+              <br>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" > Class discussion
+             </label>
+              <br>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" > Complete python assignment
+             </label>
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" > See Hunter for code review
+                 </label>
+        </div>
+        <div>
+            <p>Priorities</p>
+            <br>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" > Set mentor's meeting on saturday 1pm
+           </label>
+            <br>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" > Schedule an interview with google CEO
+           </label>
+            <br>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" > Class discussion
+           </label>
+        </div>
+    </div>
+    <div id="arrow">
+      <a href="summary.html"><i class="fa-solid fa-arrow-right"></i></a> 
+  </div>
+  <a href="summary.html">Summary</a>
+</div>
+</body>
+</html>
