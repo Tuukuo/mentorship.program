@@ -375,7 +375,7 @@ font-weight: bold;
 .summary_paragraph2{
     font-size: 20px;
     line-height: 30px;
-    margin-left: 500px;
+    margin-left: 50px;
     color: black;
 }
 .summary-container{
@@ -1578,7 +1578,7 @@ color: black;
         }
     }
     @media screen and (max-width:820px){
-        
+
     }
 
 
